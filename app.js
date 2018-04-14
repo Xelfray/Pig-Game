@@ -90,7 +90,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     {
         scores[activePlayer]+= roundScore;
         showTotalScore();
-        if(scores[activePlayer] >= 10)
+        if(scores[activePlayer] >= 100)
         {
             gamePlaying = false;
             document.getElementById('name-'+activePlayer).textContent = 'WINNER!'    
